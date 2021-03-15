@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch MiniDuckSimulator",
+            "request": "launch",
+            "mainClass": "MiniDuckSimulator",
+            "projectName": "Ducks_794486f0"
+        },
+    ]
+}
