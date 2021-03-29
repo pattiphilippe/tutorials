@@ -1,21 +1,31 @@
 package pizza_store.stores;
 
-import pizza_store.pizza.Pizza;
-import pizza_store.pizza.californian.*;
+import pizza_store.ingredient_factory.CalifornianPizzaIngredientFactory;
+import pizza_store.ingredient_factory.PizzaIngredientFactory;
+import pizza_store.pizza.*;
 
 public class CalifornianPizzaStore extends PizzaStore {
 
     @Override
     public Pizza createPizza(String type){
+        Pizza pizza = null;
+        PizzaIngredientFactory ingredientFactory = new CalifornianPizzaIngredientFactory();
+
         if(type.equals("cheese")){
-            return new CalifornianStyleCheesePizza();
+            pizza = new CheesePizza(ingredientFactory);
+            pizza.setName("Chicago Style Cheese Pizza");
         } else if(type.equals("veggie")){
-            return new CalifornianStyleVeggiePizza();
+            pizza = new VeggiePizza(ingredientFactory);
+            pizza.setName("Chicago Style Veggie Pizza");
         } else if(type.equals("clam")){
-            return new CalifornianStyleClamPizza();
+            pizza = new ClamPizza(ingredientFactory);
+            pizza.setName("Chicago Style Clam Pizza");
         } else if(type.equals("pepperoni")){
-            return new CalifornianStylePepperoniPizza();
-        } else return null;
+            pizza = new PepperoniPizza(ingredientFactory);
+            pizza.setName("Chicago Style Pepperoni Pizza");
+        }
+
+        return pizza;
     }
 
     //TODO put on pizza : ananas, chocolate, french fries, coffee beans, salmon

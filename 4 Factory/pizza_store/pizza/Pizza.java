@@ -1,21 +1,23 @@
 package pizza_store.pizza;
 
-import java.util.ArrayList;
-import java.util.List;
+import pizza_store.ingredients.cheese.Cheese;
+import pizza_store.ingredients.clam.Clam;
+import pizza_store.ingredients.dough.Dough;
+import pizza_store.ingredients.pepperoni.Pepperoni;
+import pizza_store.ingredients.sauce.Sauce;
+import pizza_store.ingredients.veggie.Veggie;
 
 public abstract class Pizza {
     protected String name;
-    protected String dough;
-    protected String sauce;
-    protected List<String> toppings = new ArrayList<>();
+    protected Dough dough;
+    protected Sauce sauce;
+    protected Veggie [] veggies;
+    protected Cheese cheese;
+    protected Pepperoni pepperoni;
+    protected Clam clam;
+
     
-    public void prepare(){
-        System.out.println("Preparing " + name);
-        System.out.println("Tossing dough...");
-        System.out.println("Adding sauce...");
-        System.out.println("Adding toppings: ");
-        toppings.forEach((String topping) -> System.out.println("   " + topping));
-    }
+    public abstract void prepare();
 
     public void bake(){
         System.out.println("Bake for 25 minutes at 350");
@@ -29,6 +31,10 @@ public abstract class Pizza {
 
     public String getName(){
         return name;
+    }
+
+    public void setName(String name){
+        this.name = name;
     }
 
     public String toString(){
