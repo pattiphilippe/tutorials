@@ -5601,6 +5601,14 @@
 							"name": "factoryMethod"
 						}
 					]
+				},
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAF47vyXE/WmSIM=",
+					"_parent": {
+						"$ref": "AAAAAAF47vQ3ZOzxPOQ="
+					},
+					"name": "Abstract Factory"
 				}
 			]
 		}
