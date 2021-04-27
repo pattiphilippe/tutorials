@@ -1,7 +1,8 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
-public class PancakeHouseMenu {
+public class PancakeHouseMenu implements Menu{
     List<MenuItem> menuItems;
 
     public PancakeHouseMenu() {
@@ -16,9 +17,9 @@ public class PancakeHouseMenu {
     public void addItem(String name, String description, boolean isVegetarian, double price) {
         menuItems.add(new MenuItem(name, description, isVegetarian, price));
     }
-
     
-    public Iterator createIterator(){
-        return new PancakeHouseIterator(menuItems);
+    @Override
+    public Iterator<MenuItem> iterator(){
+        return menuItems.iterator();
     }
 }

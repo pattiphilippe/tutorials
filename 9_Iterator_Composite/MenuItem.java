@@ -12,7 +12,6 @@ public class MenuItem {
         this.price = price;
     }
 
-
     public String getName() {
         return this.name;
     }
@@ -27,6 +26,16 @@ public class MenuItem {
 
     public double getPrice() {
         return this.price;
+    }
+
+    @Override
+    public String toString() {
+        return "{" +
+            " name='" + getName() + "'" +
+            ", description='" + getDescription() + "'" +
+            ", isVegetarian='" + isVegetarian() + "'" +
+            ", price='" + getPrice() + "'" +
+            "}";
     }
     
 }

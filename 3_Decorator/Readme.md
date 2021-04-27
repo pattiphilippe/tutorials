@@ -8,6 +8,7 @@
 
 ## OO Principles
 Classes should be open for extension but closed for modification.
+Our goal is to allow classes to be easily extended to incorporate new behavior without modifying existing code. What do we get if we accomplish this? Designs that are resilient to change and flexible enough to take on new functionnality to meet changing requirements.
 
 ## Bullet Points
 * Inheritance is one form of extension, but not necessarily the best way to achieve flexibility in our designs.
