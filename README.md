@@ -1,1 +1,1 @@
-# tutorials
+Based on book "Head First - Design Patterns - 2nd Edition - Building Extensible & Maintainable Object-Oriented Software" by Eric Freeman and Elisabeth Robson 
