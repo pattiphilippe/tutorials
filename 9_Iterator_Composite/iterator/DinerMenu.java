@@ -1,3 +1,4 @@
+package iterator;
 import java.util.Iterator;
 
 public class DinerMenu implements Menu{

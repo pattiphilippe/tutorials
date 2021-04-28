@@ -1,13 +1,16 @@
+package iterator;
+import java.util.Calendar;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-public class DinerMenuIterator implements Iterator<MenuItem> {
+public class AlternatingDinerMenuIterator implements Iterator<MenuItem> {
 
     MenuItem[] items;
-    int position = 0;
+    int position;
 
-    public DinerMenuIterator(MenuItem[] items) {
+    public AlternatingDinerMenuIterator(MenuItem[] items) {
         this.items = items;
+        position = Calendar.DAY_OF_WEEK % 2;
     }
 
     @Override
@@ -19,9 +22,9 @@ public class DinerMenuIterator implements Iterator<MenuItem> {
     public MenuItem next() {
         if (!hasNext())
             throw new NoSuchElementException();
-        return items[position++];
+        MenuItem menuItem = items[position];
+        position += 2;
+        return menuItem;
     }
-
-
-
+    
 }

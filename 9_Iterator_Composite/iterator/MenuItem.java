@@ -1,3 +1,4 @@
+package iterator;
 public class MenuItem {
     private String name;
     private String description;
