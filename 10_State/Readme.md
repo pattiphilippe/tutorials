@@ -4,7 +4,7 @@
 **The StatePattern** allows an object to alter its behavior when its internal state changes. The object will appear to change its class.
 
 ## State Class Diagram
-![State : Class Diagram](/10_State/StateClassDiagram.png "State : Class Diagram")
+![State : Class Diagram](/10_State/StateClassDiagram.PNG "State : Class Diagram")
 
 ## Bullet Points
 * The State Pattern allows an object tot have many diffrent behaviors that are based on its internal state.

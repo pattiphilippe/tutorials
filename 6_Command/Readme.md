@@ -5,7 +5,7 @@
 
 
 ## Class Diagram
-![Command Pattern : Class Diagram](/6_Command/CommandClassDiagram.png "Command Pattern : Class Diagram")
+![Command Pattern : Class Diagram](/6_Command/CommandClassDiagram.PNG "Command Pattern : Class Diagram")
 
 ## Bullet Points
 * The Command Pattern decouples an object making a request from the one that knows how to perform it.

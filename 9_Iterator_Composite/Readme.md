@@ -5,7 +5,7 @@
 It also places the task of traversal on the iterator object, not on the aggregate, which simplifies the aggregates interface and implementation, and places the responsibility where it should be.
 
 ## Iterator Class Diagram
-![Iterator : Class Diagram](/9_Iterator_Composite/IteratorClassDiagram.png "Iterator : Class Diagram")
+![Iterator : Class Diagram](/9_Iterator_Composite/IteratorClassDiagram.PNG "Iterator : Class Diagram")
 
 ## Single Responsibility Principle
 A class should have only one reason to change.
@@ -15,7 +15,7 @@ Every responsibility of a class is an area of potential change. More than one re
 **The Composite Pattern** allows you to ocmpose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
 
 ## Composite Class Diagram
-![Composite : Class Diagram](/9_Iterator_Composite/CompositeClassDiagram.png "Composite : Class Diagram")
+![Composite : Class Diagram](/9_Iterator_Composite/CompositeClassDiagram.PNG "Composite : Class Diagram")
 
 ## Bullet Points
 * An Iterator allows access to an aggregate's elements without exposing its internal structure.

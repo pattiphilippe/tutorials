@@ -4,19 +4,19 @@
 **The Factory Method Pattern** defines an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to the subclasses.
 
 ### Factory Method Class Diagram
-![Factory Method : Class Diagram](/4_Factory/FactoryMethodClassDiagram.png "Factory Method : Class Diagram")
+![Factory Method : Class Diagram](/4_Factory/FactoryMethodClassDiagram.PNG "Factory Method : Class Diagram")
 
 ### Factory Method Example
-![Factory Method : Example](/4_Factory/FactoryMethodExample.png "Factory Method : Example")
+![Factory Method : Example](/4_Factory/FactoryMethodExample.PNG "Factory Method : Example")
 
 ## Abstract Factory
 **The Abstract Factory Pattern** provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 
 ### Abstract Factory Class Diagram
-![Abstract Factory : Class Diagram](/4_Factory/AbstractFactoryClassDiagram.png "Abstract Factory : Class Diagram")
+![Abstract Factory : Class Diagram](/4_Factory/AbstractFactoryClassDiagram.PNG "Abstract Factory : Class Diagram")
 
 ### Abstract Factory Example
-![Abstract Factory : Example](/4_Factory/AbstractFactoryExample.png "Abstract Factory : Example")
+![Abstract Factory : Example](/4_Factory/AbstractFactoryExample.PNG "Abstract Factory : Example")
 
 ## OO Principles
 **Dependency Inversion Principle** : Depend on abstractions. Do not depend on concrete classes.
