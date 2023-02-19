@@ -3,6 +3,10 @@
 target/
 out/
 
+# Intellij
+.idea
+*.iml
+
 # Log file
 *.log
 
