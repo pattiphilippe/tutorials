@@ -1,3 +1,5 @@
+package duck;
+
 public class TurkeyAdapter implements Duck {
 
     private Turkey turkey;

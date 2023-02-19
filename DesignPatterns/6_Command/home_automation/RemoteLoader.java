@@ -1,13 +1,10 @@
 package home_automation;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 import home_automation.commands.CeilingFanHighCommand;
 import home_automation.commands.CeilingFanMediumCommand;
 import home_automation.commands.CeilingFanOffCommand;
-import home_automation.commands.Command;
 import home_automation.commands.GarageDoorDownCommand;
 import home_automation.commands.GarageDoorUpCommand;
 import home_automation.commands.LightOffCommand;

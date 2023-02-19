@@ -1,3 +1,5 @@
+package duck;
+
 public class MallardDuck implements Duck {
 
     @Override

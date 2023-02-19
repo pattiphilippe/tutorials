@@ -1,3 +1,5 @@
+package duck;
+
 public class WildTurkey implements Turkey {
 
     @Override
